@@ -15,6 +15,7 @@ def main():
     screen = init_game()
     population = Population(POPULATION_SIZE)
     evolution_graph = EvolutionGraph()
+    running = True
 
     while running:
         screen.fill((0, 0, 0))
